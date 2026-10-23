@@ -1,0 +1,18 @@
+{
+  "slug": "OCR",
+  "entry": "app1.py",
+  "title": "Texto desde la cámara",
+  "category": "Imagen",
+  "headline": "Captura una página.",
+  "accent": "Recupera sus palabras.",
+  "description": "Extrae texto de una fotografía tomada con la cámara.",
+  "input": "Foto de texto impreso.",
+  "output": "Texto reconocido mediante OCR.",
+  "steps": "Selecciona el filtro en el panel lateral, habilita la cámara y toma una foto con el texto enfocado.",
+  "technology": "Tesseract · OpenCV",
+  "limits": "La iluminación, el enfoque y el contraste afectan el reconocimiento. Revisa manualmente el texto extraído.",
+  "image": "OIG3.jpg",
+  "url": "https://nmgprr9f8fcsda7voc2jrz.streamlit.app/",
+  "repo": "https://github.com/Jhuza/OCR",
+  "kind": "vision"
+}
