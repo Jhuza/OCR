@@ -5,7 +5,9 @@ import pytesseract
 from PIL import Image
 
 
-st.title("Reconocimiento óptico de Caracteres")
+
+from aurora import app_header, footer
+app_header()
 
 img_file_buffer = st.camera_input("Toma una Foto")
 
@@ -33,3 +35,6 @@ if img_file_buffer is not None:
     
 
 
+
+
+footer("TEXTO / IMAGEN / VOZ / INTERACCIÓN")
